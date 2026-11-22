@@ -25,6 +25,7 @@ class Program
 
     static void UsePotion(int healthPoints, int healingAmount)
     {
-
+        int nouveauxPV = healthPoints + healingAmount;
+        Console.WriteLine("Le héros possède maintenant " + nouveauxPV + " PV.");
     }
 }
