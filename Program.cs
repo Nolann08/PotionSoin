@@ -19,6 +19,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        
+        UsePotion(50, 30);
+        UsePotion(20, 50);
+    }
+
+    static void UsePotion(int healthPoints, int healingAmount)
+    {
+
     }
 }
